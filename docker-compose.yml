@@ -4,7 +4,7 @@ services:
   gradle:
     build: ./services/gradle
     volumes:
-      - ./jar:/home/gradle/output
+      - ./jar:/output
   selenium:
     build: ./services/selenium
     env_file:
